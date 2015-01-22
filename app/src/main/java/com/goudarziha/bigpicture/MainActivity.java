@@ -70,7 +70,7 @@ public class MainActivity extends FragmentActivity  {
                 struser = currentUser.getUsername();
                 tvWelcome = (TextView) findViewById(R.id.welcomeLogin);
                 tvWelcome.setText("ready to draw some pictures " + struser + "?");
-                Toast.makeText(this, "This bitch is working", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "This is working", Toast.LENGTH_SHORT).show();
             }
         } else {
             Toast.makeText(this, "Map not working", Toast.LENGTH_SHORT).show();
